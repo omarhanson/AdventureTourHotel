@@ -24,9 +24,10 @@ main {
    }
    
     header {
-      height: 100vh; 
-      background-attachment:fixed;
-      object-fit:fill;
+      
+      height: 100vh;
+      background-attachment:scroll;
+      object-fit: fill;
       
    } 
 
