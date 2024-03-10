@@ -1,0 +1,19 @@
+/* ------------- MEDIA QUERIES -------------- */
+
+   @media (max-width: 1024px){
+
+     .testimonials-container{
+
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      
+
+     }
+  #about{
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   
+}
+     
+
+  } 
