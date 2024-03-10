@@ -23,6 +23,11 @@ main {
    
    }
    
+   header {
+      height: 60vh; 
+      background-attachment:fixed;
+      
+   }
 
 
   } 
