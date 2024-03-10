@@ -24,9 +24,9 @@ main {
    }
    
     header {
-      height: 60vh; 
+      height: 100vh; 
       background-attachment:fixed;
-      object-fit: cover;
+      object-fit:fill;
       
    } 
 
