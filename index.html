@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adventure Tour</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="calendarstyle.css" />
     <link rel="stylesheet" href="responsive.css" />
     <script src="script.js"></script>
+    <script src="calendarscript.js" defer></script>
   </head>
   <body>
     <header>
@@ -149,10 +151,33 @@
 
       <div>
         <img class="pic" src="/image/pexels-donald-tong-189296.jpg" alt="" />
-      </div><br><br>
-      
+      </div>
+      <br /><br />
 
       <section id="contact">
+
+        <div class="calendar">
+          <h3></h3>
+          <div class="head">
+            <nav>
+              <button id="prev"></button>
+              <button id="next"></button>
+            </nav>
+          </div>
+          <section>
+            <ul class="days">
+              <li>Sun</li>
+              <li>Mon</li>
+              <li>Tue</li>
+              <li>Wed</li>
+              <li>Thu</li>
+              <li>Fri</li>
+              <li>Sat</li>
+            </ul>
+            <ul class="dates"></ul>
+          </section>
+        </div>
+
         <div>
           <h2>Contact</h2>
           <form action="">
@@ -166,9 +191,9 @@
             <button type="submit" name="submit">Send Message</button>
           </form>
         </div>
+        
       </section>
     </main>
-
     <footer>&copy 2021 Adenture Toor</footer>
   </body>
 </html>
